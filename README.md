@@ -1,40 +1,28 @@
-# Hi 👋, I'm X. Zhi
+  <!-- Animated Title -->
 
-### An ai rookie
-
-<div align="center">
-  <svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%"  stop-color="#00d4ff"/>
-        <stop offset="50%" stop-color="#ff00c8"/>
-        <stop offset="100%" stop-color="#00d4ff"/>
-        <animateTransform attributeName="gradientTransform" type="translate" from="-800 0" to="800 0" dur="4s" repeatCount="indefinite"/>
-      </linearGradient>
-      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-        <feGaussianBlur stdDeviation="4" result="blur"/>
-        <feMerge>
-          <feMergeNode in="blur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-    </defs>
-    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="48" fill="url(#grad)" filter="url(#glow)" font-family="monospace">
-      Hi 👋, I'm X. Zhi
-      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
-    </text>
-  </svg>
-</div>
+  <h1 style="font-family: 'Space Grotesk', sans-serif; font-size: 2.5rem; font-weight: 700; margin: 2rem 0; color: #00d4ff;">
+    Hi 👋, I'm X. Zhi
+  </h1>
 
 
+  <!-- Subtitle -->
 
-- 🔭 I'm currently working on **Meta learning and test time training**
+  <div style="font-family: 'JetBrains Mono', monospace; font-size: 1.3rem; color: #14b8a6; margin: 1rem 0;">
+    <span>An AI Rookie</span>
+  </div>
 
-- 👯 I'm looking to collaborate on **open source programs**
 
-- 💬 Ask me about **Python, C#, VUE**
+  <!-- Profile Description -->
 
-- 📫 How to reach me **zxq1942461723@163.com**
+  <div style="max-width: 600px; margin: 2rem auto; font-size: 1rem; line-height: 1.6;">
+    <p>🔭 Currently working on <strong style="color: #00d4ff;">Meta learning and test time training</strong></p>
+    <p>👯 Looking to collaborate on <strong style="color: #8b5cf6;">open source programs</strong></p>
+    <p>💬 Ask me about <strong style="color: #10b981;">Python, C#, VUE</strong></p>
+    <p>📫 How to reach me: <strong style="color: #f59e0b;">zxq1942461723@163.com</strong></p>
+  </div>
+
+
+  <!-- Social Links -->
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
