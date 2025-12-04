@@ -2,7 +2,6 @@
 
 ### An ai rookie
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=xqz614&label=Profile views&color=0e75b6&style=flat" alt="xqz614" /> </p>
 
 - 🔭 I'm currently working on **Meta learning and test time training**
 
