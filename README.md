@@ -2,13 +2,29 @@
 
 ### An ai rookie
 
-<!-- 
-  GitHub Profile README - X. Zhi
-  Enhanced AI/Data Science Professional Profile
-
-  This is optimized for GitHub's README format with embedded HTML/CSS
--->
-
+<div align="center">
+  <svg width="800" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%"  stop-color="#00d4ff"/>
+        <stop offset="50%" stop-color="#ff00c8"/>
+        <stop offset="100%" stop-color="#00d4ff"/>
+        <animateTransform attributeName="gradientTransform" type="translate" from="-800 0" to="800 0" dur="4s" repeatCount="indefinite"/>
+      </linearGradient>
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="4" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-size="48" fill="url(#grad)" filter="url(#glow)" font-family="monospace">
+      Hi 👋, I'm X. Zhi
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </text>
+  </svg>
+</div>
 
 
 
